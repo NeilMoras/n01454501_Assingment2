@@ -11,6 +11,9 @@ namespace Assingment2_N01454501.Controllers
     {
 
         /// <summary>
+        /// 
+        /// J2 PROBLEM
+        /// 
         /// 4 readings which are  incremental, decreamental and mixed reading each given an output. 
         /// </summary>
         /// <param name="reading1"> 1st reading</param>

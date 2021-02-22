@@ -10,6 +10,9 @@ namespace Assingment2_N01454501.Controllers
     public class TelemarketerController : ApiController
     {
         /// <summary>
+        /// 
+        ///  J1 PROBLEM
+        ///  
         ///  To check to see whether the seven digit number is a telemarketer number or not through the last 4 digits og the code and as follows:
         ///  1.the first of these four digits is an 8 or 9;
         ///  2. the last digit is an 8 or 9;
