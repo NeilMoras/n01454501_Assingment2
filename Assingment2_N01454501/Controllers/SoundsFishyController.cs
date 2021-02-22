@@ -11,13 +11,24 @@ namespace Assingment2_N01454501.Controllers
     {
 
         /// <summary>
-        /// 
+        /// 4 readings which are  incremental, decreamental and mixed reading each given an output. 
         /// </summary>
-        /// <param name="reading1"></param>
-        /// <param name="reading2"></param>
-        /// <param name="reading3"></param>
-        /// <param name="reading4"></param>
-        /// <returns></returns>
+        /// <param name="reading1"> 1st reading</param>
+        /// <param name="reading2">2nd reading</param>
+        /// <param name="reading3">3rd reading</param>
+        /// <param name="reading4">4th reading</param>
+        /// 
+        ///  <example>
+        ///  api/SoundsFishy/FishDepthMeasure/30/10/20/20  => "No Fish"
+        ///  api/SoundsFishy/FishDepthMeasure/1/10/12/13   => "Fish Rising"
+        ///  api/SoundsFishy/FishDepthMeasure/30/30/30/30  => "Fish at Constant Depth"
+        ///  api/SoundsFishy/FishDepthMeasure/30/24/12/6   => "Fish Diving"
+        /// </example>
+        /// <returns>
+        /// "Fish at Constant Deepth"
+        /// "Fish Rising"
+        /// "Fish Diving"
+        /// </returns>
 
         [HttpGet]
         [Route("api/SoundsFishy/FishDepthMeasure/{reading1}/{reading2}/{reading3}/{reading4}")]
