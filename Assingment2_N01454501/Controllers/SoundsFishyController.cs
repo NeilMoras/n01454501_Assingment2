@@ -12,9 +12,11 @@ namespace Assingment2_N01454501.Controllers
 
         /// <summary>
         /// 
-        /// J2 PROBLEM
+        /// J2 PROBLEM 2013 SOUNDS FISHY
+        /// 
         /// 
         /// 4 readings which are  incremental, decreamental and mixed reading each given an output. 
+        /// USING IF STATMENT
         /// </summary>
         /// <param name="reading1"> 1st reading</param>
         /// <param name="reading2">2nd reading</param>
